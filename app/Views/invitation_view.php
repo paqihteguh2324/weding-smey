@@ -1181,7 +1181,7 @@
         <div id="thankyou" class="section-rsvp scroll-animate">
             <h2>Thank You</h2>
             <p>It is a pleasure and honor for us, if you are willing to attend and give us your blessing.</p>
-            <div style="max-height: 80vh; overflow-y: scroll; background-color: #fff; border-radius: 10px;">
+            <div style="max-height: 80vh; overflow-y: scroll; background-color: #fff; border-radius: 10px; width: 100%;">
                 <div class="chat-box" id="chatBox"></div>
             </div>
         </div>
