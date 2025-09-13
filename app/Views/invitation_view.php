@@ -527,6 +527,10 @@
             max-width: 320px;
             line-height: 1.6;
             color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
 
         .source {
@@ -988,7 +992,7 @@
                     <div class="wedding-title">The Wedding of</div>
                     <div class="couple-names"></div>
                 </div>
-                
+
                 <div class="guest-section">
                     <div class="decorative-divider"></div>
                     <div class="dear">Dear</div>
@@ -996,7 +1000,7 @@
                     <div class="apology">We apologize if there is any misspelling of name or title</div>
                     <div class="decorative-divider"></div>
                 </div>
-                
+
                 <div>
                     <button class="open-button" onclick="openInvitation()"></button>
                 </div>
@@ -1014,7 +1018,7 @@
                 <div class="bubble"></div>
                 <div class="bubble"></div>
             </div>
-            
+
             <div class="texture-layer"></div>
             <div class="floral-container">
                 <div class="floral-top"></div>
@@ -1036,9 +1040,11 @@
                 <div class="divider scroll-animate"></div>
 
                 <div class="quote scroll-animate">
-                    And one of His signs is that He created mates for you from yourselves
-                    that you may find rest in them, and He put between you love and compassion;
-                    most surely there are signs in this for a people who reflect.
+                    <center>
+                        And one of His signs is that He created mates for you from yourselves
+                        that you may find rest in them, and He put between you love and compassion;
+                        most surely there are signs in this for a people who reflect.
+                    </center>
                 </div>
 
                 <div class="source scroll-animate">– QS. AR-RUM 21 –</div>
@@ -1085,8 +1091,10 @@
                     </div>
                 </div>
                 <div class="location scroll-animate">
-                    <div class="location-title">GD. SKB TANJUNGSARI</div>
-                    <div class="location-address">Jl. Raya Tanjungsari KM 18, Sumedang</div>
+                    <center>
+                        <div class="location-title">GD. SKB TANJUNGSARI</div>
+                        <div class="location-address">Jl. Raya Tanjungsari KM 18, Sumedang</div>
+                    </center>
                 </div>
                 <button onclick="openMap()" class="btn scroll-animate">Open Maps</button>
                 <div class="dresscode-section scroll-animate">
@@ -1126,9 +1134,11 @@
 
             <!-- Gift Card -->
             <section style="margin-top: 20px" id="gift" class="scroll-animate">
-                <h2>Gift</h2>
-                <p>Doa restu dari Bapak/Ibu/Saudara/i sudah lebih dari cukup bagi kami.
-                    Namun jika ingin memberikan hadiah, kami menyediakan amplop digital berikut:</p>
+                <center>
+                    <h2>Gift</h2>
+                    <p>Doa restu dari Bapak/Ibu/Saudara/i sudah lebih dari cukup bagi kami.
+                        Namun jika ingin memberikan hadiah, kami menyediakan amplop digital berikut:</p>
+                </center>
 
 
                 <section class="gift-section ">
@@ -1179,11 +1189,13 @@
 
         </div>
         <div id="thankyou" class="section-rsvp scroll-animate">
-            <h2>Thank You</h2>
-            <p>It is a pleasure and honor for us, if you are willing to attend and give us your blessing.</p>
-            <div style="max-height: 80vh; overflow-y: scroll; background-color: #fff; border-radius: 10px; width: 100%;">
-                <div class="chat-box" id="chatBox"></div>
-            </div>
+            <center>
+                <h2>Thank You</h2>
+                <p>It is a pleasure and honor for us, if you are willing to attend and give us your blessing.</p>
+                <div style="max-height: 80vh; overflow-y: scroll; background-color: #fff; border-radius: 10px; width: 100%;">
+                    <div class="chat-box" id="chatBox"></div>
+                </div>
+            </center>
         </div>
     </div>
     <div class="toast-container" id="toastContainer">
