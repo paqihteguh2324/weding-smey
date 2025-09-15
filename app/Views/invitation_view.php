@@ -1147,10 +1147,10 @@
                             <?php
                             $bankAccounts = [
                                 [
-                                    'bank' => 'Seabank',
-                                    'account' => '901490222090',
+                                    'bank' => 'BCA digital/blu',
+                                    'account' => '007568600356',
                                     'name' => 'Maya Tri Rahayu',
-                                    'logo_class' => 'seabank',
+                                    'logo_class' => 'bca',
                                     'icon' => 'fas fa-university'
                                 ],
                                 [
@@ -1160,13 +1160,6 @@
                                     'logo_class' => 'bca',
                                     'icon' => 'fas fa-landmark'
                                 ],
-                                [
-                                    'bank' => 'Dana',
-                                    'account' => '087760672546',
-                                    'name' => 'Maya Tri Rahayu',
-                                    'logo_class' => 'dana',
-                                    'icon' => 'fas fa-mobile-alt'
-                                ]
                             ];
 
                             foreach ($bankAccounts as $bank) {
